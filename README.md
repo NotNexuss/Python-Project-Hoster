@@ -14,7 +14,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-    return '<meta http-equiv="refresh" content="0; URL=https://itznexus.gitbook.io/itznexus/support"/>'
+    return 'Please connect me into a hosting website to enable 24/7 hosting. ItzNexus#5354'
 
 def run():
     app.run(host="0.0.0.0", port=8080)
