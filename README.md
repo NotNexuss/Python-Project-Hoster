@@ -6,7 +6,8 @@
 ## Applying
 
 Open your main repl file (example: main.py etc...) and add `keep_alive` to import line. Now create a new file named `keep_alive.py`, then paste this script below:
-```
+
+```py
 from flask import Flask
 from threading import Thread
 
